@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+.card-container{
+    margin: 40px auto;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px hsla(224, 23%, 55%, 0.253);
+    padding-bottom: 40px;
+}
+.illustration-hero{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h3 + p{
+    text-align: center;
+    width: 230px;
+    font-size: 12px;
+    color:hsl(224, 23%, 55%);
+    line-height: 20px;
+    
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+[class="plan-box"]{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+
+}
+.music-icon{
+    width: 40px;
+    height: 40px;
+}
+#plan{
+    display: inline;
+}
+
+#plan > div{
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+#plan > span{
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#plan + a{
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    margin-left: 40px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    box-shadow: 0px 15px 10px hsla(224, 23%, 55%, 0.253);
+    transition: opacity .5s;
+}
+button:hover, #plan + a:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+[id="clear-order-anchor"]{
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    transition: color .5;
+
+}
+#clear-order-anchor:hover{
+  color: black;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+
